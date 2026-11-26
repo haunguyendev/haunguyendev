@@ -14,7 +14,7 @@ My work sits at the intersection of **production backend architecture, platform 
 
 | Area | Focus & Engineering Scope |
 | :--- | :--- |
-| **AI Systems & Agentic Tooling** | Multi-agent orchestration, Model Context Protocol (`MCP`) servers, RAG & document-intelligence workflows, multi-channel AI assistants (Web, Zalo, Messenger, Microsoft Teams) |
+| **AI Harnesses & Agent Orchestration** | Multi-agent orchestration & coding harnesses (`Claude Code`, `Codex`, `Gemini`, `Orca`, `Hermes`, `OpenClaw`), custom `MCP` servers & agent skills, RAG & document workflows, multi-channel AI assistants |
 | **Backend & Distributed Systems** | Dual-backend architectures (`NestJS` + `FastAPI`), `GraphQL` & REST APIs, real-time event streaming (`Kafka`, `Socket.IO`, `Redis`), relational & vector data modeling (`PostgreSQL`, `pgvector`) |
 | **Identity, Security & Infra** | Enterprise SSO & RBAC (`Keycloak`, OAuth2/OIDC, mandatory 2FA), containerized workloads (`Docker`, `Kubernetes`), CI/CD pipelines, Cloudflare & Linux operations |
 | **Product Interfaces** | Operational consoles, analytics dashboards, and mobile clients built with `Next.js`, `React`, `TypeScript`, and `React Native` |
@@ -47,13 +47,23 @@ At **[Untern AI](https://untern.ai)** ([github.com/UnternAI](https://github.com/
 
 ## Core Tech Stack
 
-**Languages & AI Tooling**  
+**AI Models, Agent Harnesses & Orchestration**  
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-18181B?style=flat-square&logo=anthropic&logoColor=D97757)
+![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-10A37F?style=flat-square)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![Orca](https://img.shields.io/badge/Orca-0F172A?style=flat-square)
+![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-3B0764?style=flat-square)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-991B1B?style=flat-square)
+![Agent Orchestration](https://img.shields.io/badge/Multi--Agent_Orchestration-1E293B?style=flat-square)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-111827?style=flat-square)
+![LLM Agents & RAG](https://img.shields.io/badge/LLM_Agents_%26_RAG-0F766E?style=flat-square)
+
+**Languages & Runtimes**  
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![C# / .NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-111827?style=flat-square)
-![LLM Agents](https://img.shields.io/badge/LLM_Agents_%26_RAG-0F766E?style=flat-square)
 
 **Backend, Data & Messaging**  
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
