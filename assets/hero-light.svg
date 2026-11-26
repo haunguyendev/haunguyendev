@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="920" height="310" role="img" aria-label="Trung Hau Nguyen (Kane Nguyen) — Co-founder at Untern AI">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="55%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#EEF2F8"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="72%" cy="46%" r="36%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="22%" cy="28%" r="34%">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#CCFBF1"/>
+    </linearGradient>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.85" fill="#94A3B8" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .serif { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
+
+    .wire-base { fill: none; stroke: #CBD5E1; stroke-width: 1.4; }
+    .wire-flow {
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-dasharray: 5 22;
+      animation: packet 2.6s linear infinite;
+    }
+    .wire-flow-2 { animation-delay: -0.9s; }
+    .wire-flow-3 { animation-delay: -1.7s; }
+    .wire-out {
+      fill: none;
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      stroke-dasharray: 6 20;
+      animation: packet 2.2s linear infinite;
+    }
+
+    .pulse-ring {
+      animation: ping 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
+      transform-origin: 46px 36px;
+    }
+    .hub-ring {
+      fill: none;
+      stroke: #2563EB;
+      stroke-opacity: 0.30;
+      stroke-width: 1.2;
+      stroke-dasharray: 4 6;
+      animation: orbit 8s linear infinite;
+    }
+    .cursor {
+      animation: blink 1.1s steps(2, start) infinite;
+    }
+
+    @keyframes packet {
+      from { stroke-dashoffset: 27; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes orbit {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes ping {
+      0% { r: 3.5; opacity: 0.8; }
+      80%, 100% { r: 9.5; opacity: 0; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Surface -->
+  <rect x="1" y="1" width="918" height="308" rx="16" fill="url(#bg)" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="1" y="1" width="918" height="308" rx="16" fill="url(#dots)"/>
+  <rect x="1" y="1" width="918" height="308" rx="16" fill="url(#glowBlue)"/>
+  <rect x="1" y="1" width="918" height="308" rx="16" fill="url(#glowTeal)"/>
+
+  <!-- Column Divider -->
+  <line x1="434" y1="24" x2="434" y2="258" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- LEFT: Founder Identity -->
+  <rect x="30" y="24" width="248" height="24" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <circle class="pulse-ring" cx="46" cy="36" r="3.5" fill="#059669"/>
+  <circle cx="46" cy="36" r="3.5" fill="#059669"/>
+  <text x="58" y="40" class="mono" font-size="10" fill="#475569" letter-spacing="0.6">ONLINE · HO CHI MINH CITY, VN</text>
+
+  <text x="30" y="84" class="sans" font-size="29" font-weight="700" fill="#0F172A" letter-spacing="-0.6">Trung Hau Nguyen</text>
+  <text x="30" y="105" class="mono" font-size="11.5" fill="#64748B">Kane Nguyen · Nguyễn Trung Hậu · @haunguyendev</text>
+
+  <rect x="30" y="119" width="212" height="26" rx="6" fill="url(#roleGrad)" stroke="#3B82F6" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="42" y="136" class="mono" font-size="11" font-weight="700" fill="#1E3A8A" letter-spacing="0.6">CO-FOUNDER @ UNTERN AI</text>
+
+  <text x="30" y="173" class="serif" font-size="16.5" fill="#334155">“Orchestrating autonomous agents &amp;</text>
+  <text x="30" y="195" class="serif" font-size="16.5" fill="#334155">distributed backends into production AI.”</text>
+
+  <text x="30" y="228" class="mono" font-size="10.8" fill="#475569"><tspan fill="#0284C7">▸</tspan> harnesses :: claude-code · codex · gemini · orca · hermes</text>
+  <text x="30" y="247" class="mono" font-size="10.8" fill="#475569"><tspan fill="#059669">▸</tspan> backbone  :: nestjs · fastapi · kafka · keycloak · k8s</text>
+
+  <!-- RIGHT: Live Agent Orchestration Schematic -->
+  <text x="454" y="37" class="mono" font-size="9.8" fill="#64748B" letter-spacing="1.2">AGENTIC CONTROL PLANE // LIVE TOPOLOGY</text>
+
+  <!-- Wires: Harnesses (x=578) -> Core Hub (x=624, y=143) -->
+  <path class="wire-base" d="M 578 67 C 602 67, 600 132, 624 136"/>
+  <path class="wire-base" d="M 578 105 C 600 105, 602 136, 624 140"/>
+  <path class="wire-base" d="M 578 143 L 624 143"/>
+  <path class="wire-base" d="M 578 181 C 600 181, 602 150, 624 146"/>
+  <path class="wire-base" d="M 578 219 C 602 219, 600 154, 624 150"/>
+
+  <path class="wire-flow" stroke="#C2410C" d="M 578 67 C 602 67, 600 132, 624 136"/>
+  <path class="wire-flow wire-flow-2" stroke="#059669" d="M 578 105 C 600 105, 602 136, 624 140"/>
+  <path class="wire-flow wire-flow-3" stroke="#2563EB" d="M 578 143 L 624 143"/>
+  <path class="wire-flow wire-flow-2" stroke="#0284C7" d="M 578 181 C 600 181, 602 150, 624 146"/>
+  <path class="wire-flow" stroke="#7E22CE" d="M 578 219 C 602 219, 600 154, 624 150"/>
+
+  <!-- Wires: Core Hub (x=716, y=143) -> Untern Suite (x=760) -->
+  <path class="wire-base" d="M 716 137 C 738 137, 738 88, 760 88"/>
+  <path class="wire-base" d="M 716 143 L 760 143"/>
+  <path class="wire-base" d="M 716 149 C 738 149, 738 198, 760 198"/>
+
+  <path class="wire-out" stroke="#0B7A62" d="M 716 137 C 738 137, 738 88, 760 88"/>
+  <path class="wire-out wire-flow-2" stroke="#2F55C9" d="M 716 143 L 760 143"/>
+  <path class="wire-out wire-flow-3" stroke="#C2491F" d="M 716 149 C 738 149, 738 198, 760 198"/>
+
+  <!-- Harness Nodes -->
+  <g>
+    <rect x="454" y="52" width="124" height="30" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="467" cy="67" r="3.5" fill="#D97757"/>
+    <text x="477" y="71" class="mono" font-size="10.5" fill="#0F172A">Claude Code</text>
+
+    <rect x="454" y="90" width="124" height="30" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="467" cy="105" r="3.5" fill="#10A37F"/>
+    <text x="477" y="109" class="mono" font-size="10.5" fill="#0F172A">OpenAI Codex</text>
+
+    <rect x="454" y="128" width="124" height="30" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="467" cy="143" r="3.5" fill="#4285F4"/>
+    <text x="477" y="147" class="mono" font-size="10.5" fill="#0F172A">Google Gemini</text>
+
+    <rect x="454" y="166" width="124" height="30" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="467" cy="181" r="3.5" fill="#0284C7"/>
+    <text x="477" y="185" class="mono" font-size="10.5" fill="#0F172A">Orca Harness</text>
+
+    <rect x="454" y="204" width="124" height="30" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="467" cy="219" r="3.5" fill="#9333EA"/>
+    <text x="477" y="223" class="mono" font-size="10.2" fill="#0F172A">Hermes · Claw</text>
+  </g>
+
+  <!-- Center Hub -->
+  <circle class="hub-ring" cx="670" cy="143" r="54"/>
+  <rect x="624" y="105" width="92" height="76" rx="14" fill="url(#hubGrad)" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="670" y="129" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#1D4ED8" letter-spacing="0.5">UNTERN CORE</text>
+  <text x="670" y="146" text-anchor="middle" class="mono" font-size="9.5" fill="#334155">MCP · Ledger</text>
+  <rect x="638" y="155" width="64" height="16" rx="8" fill="#DCFCE7" stroke="#059669" stroke-opacity="0.45" stroke-width="0.8"/>
+  <text x="670" y="166" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#047857">VERIFIED</text>
+
+  <!-- Right Nodes: Untern Product Suite -->
+  <g>
+    <rect x="760" y="66" width="134" height="44" rx="8" fill="#FFFFFF" stroke="#99F6E4" stroke-width="1.2"/>
+    <rect x="760" y="66" width="4" height="44" rx="2" fill="#0B7A62"/>
+    <text x="773" y="85" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Untern Lens</text>
+    <text x="773" y="100" class="mono" font-size="9.5" fill="#475569">Doc AI · VI / JA</text>
+
+    <rect x="760" y="121" width="134" height="44" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.2"/>
+    <rect x="760" y="121" width="4" height="44" rx="2" fill="#2F55C9"/>
+    <text x="773" y="140" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Untern Atlas</text>
+    <text x="773" y="155" class="mono" font-size="9.5" fill="#475569">Cited RAG Engine</text>
+
+    <rect x="760" y="176" width="134" height="44" rx="8" fill="#FFFFFF" stroke="#FED7AA" stroke-width="1.2"/>
+    <rect x="760" y="176" width="4" height="44" rx="2" fill="#C2491F"/>
+    <text x="773" y="195" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Untern Relay</text>
+    <text x="773" y="210" class="mono" font-size="9.5" fill="#475569">Support + Handoff</text>
+  </g>
+
+  <!-- Bottom Telemetry Bar -->
+  <line x1="1" y1="270" x2="919" y2="270" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="30" y="293" class="mono" font-size="10.8" fill="#475569">
+    <tspan fill="#059669" font-weight="600">$ kane@untern</tspan> <tspan fill="#94A3B8">~</tspan> status --mode=production <tspan fill="#2563EB">→</tspan> agents gated, services healthy
+  </text>
+  <rect class="cursor" x="536" y="283" width="6.5" height="12.5" rx="1" fill="#2563EB"/>
+  <text x="892" y="293" text-anchor="end" class="mono" font-size="10.5" fill="#64748B">untern.ai · haunguyendev.xyz</text>
+</svg>
